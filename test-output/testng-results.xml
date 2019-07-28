@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="GAPtest" duration-ms="29083" started-at="2019-07-28T23:49:47Z" finished-at="2019-07-28T23:50:16Z">
+    <groups>
+    </groups>
+    <test name="GAPTest1" duration-ms="29083" started-at="2019-07-28T23:49:47Z" finished-at="2019-07-28T23:50:16Z">
+      <class name="com.gaptest.testCases.LoginTC_001">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.gaptest.testCases.LoginTC_001@239963d8]" name="setup" is-config="true" duration-ms="8554" started-at="2019-07-28T23:49:47Z" finished-at="2019-07-28T23:49:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginUserTest()[pri:0, instance:com.gaptest.testCases.LoginTC_001@239963d8]" name="loginUserTest" duration-ms="1879" started-at="2019-07-28T23:49:56Z" finished-at="2019-07-28T23:49:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginUserTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.gaptest.testCases.LoginTC_001@239963d8]" name="tearDown" is-config="true" duration-ms="2306" started-at="2019-07-28T23:49:58Z" finished-at="2019-07-28T23:50:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.gaptest.testCases.LoginTC_001 -->
+      <class name="com.gaptest.testCases.CreateEmployeeTC_002">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.gaptest.testCases.CreateEmployeeTC_002@3abbfa04]" name="setup" is-config="true" duration-ms="7538" started-at="2019-07-28T23:50:00Z" finished-at="2019-07-28T23:50:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="createEmployeeTest()[pri:0, instance:com.gaptest.testCases.CreateEmployeeTC_002@3abbfa04]" name="createEmployeeTest" duration-ms="5271" started-at="2019-07-28T23:50:08Z" finished-at="2019-07-28T23:50:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createEmployeeTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.gaptest.testCases.CreateEmployeeTC_002@3abbfa04]" name="tearDown" is-config="true" duration-ms="3276" started-at="2019-07-28T23:50:13Z" finished-at="2019-07-28T23:50:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.gaptest.testCases.CreateEmployeeTC_002 -->
+    </test> <!-- GAPTest1 -->
+  </suite> <!-- GAPtest -->
+</testng-results>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name= "GAPtest">
+	<listeners>
+		<listener class-name="com.gaptest.utilities.ReportListener"/>
+	</listeners>
+
+	<test name="GAPTest1">
+		<classes>
+			<class name="com.gaptest.testCases.LoginTC_001"/>
+			<class name="com.gaptest.testCases.CreateEmployeeTC_002"/>
+		</classes>
+	</test>
+</suite>
